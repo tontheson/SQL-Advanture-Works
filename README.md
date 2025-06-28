@@ -1,15 +1,23 @@
 # [SQL] Advanture Works
 ## I. Project Overview
-
+This repository contains SQL queries and analyses based on the AdventureWorks dataset available on Google BigQuery. The primary purpose of this project is to explore sales data comprehensively, providing insights into business performance, product sales trends, customer behavior, and revenue streams.
 ## II. Dataset Description
-
+The dataset used is the AdventureWorks dataset, publicly available on Google BigQuery. It includes:
+- Sales Data: Information about sales orders, quantities, prices, discounts, and transaction dates.
+- Customer Data: Demographic and behavioral information about customers.
+- Product Data: Details about product categories, pricing, and stock information.
+- Employee and Territory Data: Information about sales territories and salespersons.
+You can explore the dataset directly on [Google BigQuery AdventureWorks Public Dataset](https://console.cloud.google.com/bigquery?referrer=search&inv=1&invt=Ab1Sww&project=dacproject2&ws=!1m36!1m3!8m2!1s432440198297!2s3b4edf912a7c4a2c875fd19ec004dd53!1m3!8m2!1s432440198297!2s461b4568c03e445b93cf2f86b5dd9769!1m3!8m2!1s432440198297!2sf1a2c9703b504e459215ba2566a6ee8e!1m3!8m2!1s432440198297!2sd7307120612a4ef58e77a9d54ef08ea9!1m3!8m2!1s432440198297!2s00cd43487a2f4cf1b368260aaaba26a1!1m3!8m2!1s432440198297!2s88539e41e6734bdab3ba42a3e7120c23!1m3!8m2!1s432440198297!2s5425cdc4dc2b4097ba4d2d4f7c027124!1m3!8m2!1s432440198297!2s5a28656c715a48c591ddf857b7444ccf!1m3!3m2!1sadventureworks2019!2sHumanResources).
 ## III. Project Objectives
-
-## IV. Project Objectives
-
-## V. Requirements
-
-## VI. Explore Data set
+- Analyze total sales performance and trends over time.
+- Understand customer purchasing patterns and preferences.
+- Evaluate product performance, highlighting top-selling and underperforming products.
+- Identify seasonal sales trends and revenue fluctuations.
+- Assess performance by sales territories and salespersons.
+## IV. Requirements
+- Access to Google BigQuery
+- Basic to intermediate SQL knowledge
+## V. Explore Data set
 ### Query 01: Calc Quantity of items, Sales value & Order quantity by each Subcategory in L12M
 - SQL query:
 <pre>
@@ -371,9 +379,9 @@ group by 1,2;
 |------|--------|-----------|------------------|
 | 2014 | 1      | 224       | 3873579.0123     |
 </pre>
-## VII. Contributing
+## VI. Contributing
   Contributions are welcome! Please open an issue first to discuss potential improvements or submit a pull request.
-## VIII. Contact
+## VII. Contact
 For any questions or suggestions, please contact:
 - Ton The Son
 - Email: tontheson@gmail.com
